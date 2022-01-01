@@ -1,0 +1,24 @@
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-item {
+  margin: 5px;
+  display: inline;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  border-bottom: 4px solid #77a6f7;
+  transition: all 0.1s ease-out;
+}
