@@ -1,5 +1,15 @@
 .home {
-  margin-top: 30px;
-  padding: 50px;
-  height: 500px;
+  height: 700px;
+  padding-top: 30px;
+}
+
+h1 {
+  position: relative;
+  top: 30%;
+  margin: auto;
+  display: block;
+}
+
+.name {
+  font-size: 3rem;
 }

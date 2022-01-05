@@ -1,12 +1,13 @@
 .nav {
-  height: 50px;
+  background-color: #d3e3fc;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .nav-item {
