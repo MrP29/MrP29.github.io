@@ -1,13 +1,25 @@
 body {
+  background-color: #d6e6f2;
   text-align: center;
 }
 
-.projects {
-  margin: 20px 15%;
+.navbar {
+  background-color: #b9d7ea;
 }
 
-#about-me {
-  margin-top: 100px;
+.navbar-nav {
+  text-align: center;
+}
+
+#about-me,
+#projects,
+#contact {
+  margin: 30px 0;
+  padding: 0 5%;
+}
+
+.profileImage {
+  border-radius: 30%;
 }
 
 .b-example-divider {
@@ -24,6 +36,9 @@ body {
   fill: currentColor;
 }
 
+.social-icons {
+  margin: 10px;
+}
 .social-icons a {
   margin: 10px;
 }
