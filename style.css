@@ -57,7 +57,9 @@ h4 {
   border-top: 1px solid #769fcd;
 }
 .profileImage {
-  border-radius: 40%;
+  max-width: 100%;
+  height: 200px;
+  border-radius: 100%;
 }
 
 .social-icons {
